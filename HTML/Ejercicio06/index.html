@@ -2,233 +2,364 @@
 <html>
 <head>
     <title>Prueba Web</title>
+    <meta charset="utf-8">
 </head>
 <body>
-    <div id="A1" class ="center">
-        <ul id="navpath">
-            <li id="navhome">Home</li>
-            <li id="navfolder">Mollis</li>
-            <li id="navfolder2">Cursus</li>
-        </ul>
+    <div id="A1" class="bg-gray">
+        <div class="center">
+            <ul class="navpath">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Mollis</a>
+                </li>
+                <li>Cursus</li>
+            </ul>
+        </div>
     </div>
     <div id="A2" class ="center">
-        <div id="productcontainer">
-            <img src="#" alt"producto" id="productimage" />
-            <p id="lblbestoffer">Best offer:</p>
-            <spam id="price">$154.00</spam>
-            <input type="button" id="btnbuy" value="BUY"/>
+        <div class="center"></div>
+        <div class="marco fleft col-20">
+            <img src="./img/200x200.gif" alt="producto" />
+            <p>Best offer:</p>
+            <span class="price"> $154.00</span>
+            <input type="button" class="btn btn-buy btn-big" value="BUY"/>
             <p id ="lblbuy">from facilisis id sit amet sapienid sit amet sapien</p>
         </div>
-        <div id="productdescription">
-            <h2 id="productdesctitle">Lorem ipsum dolor sit amet</h2>
-            <p id="producdesctext"> consectetur adipisicing elit. Fugiat, natus sapiente omnis. Blanditiis, obcaecati, repellat sed corporis dignissimos pariatur iste. Consequatur, necessitatibus adipisci esse. Rerum delectus iusto et eveniet dignissimos.</p>
+        <div class="fleft col-80">
+            <h2 id="productdesctitle" class="uppercase">Lorem ipsum dolor sit amet</h2>
+            <p id="producdesctext">
+                consectetur adipisicing elit. Fugiat, natus sapiente omnis. Blanditiis, obcaecati, repellat sed corporis dignissimos pariatur iste. Consequatur, necessitatibus adipisci esse. Rerum delectus iusto et eveniet dignissimos.
+            </p>
         </div>
     </div>
-    <table id="A3" class ="center">
-        <thead>
-            <tr>
-            <th>5 offers</th> 
-            <th></th> 
-            <th></th> 
-            <th></th> 
-            <th></th> 
-            <th></th> 
-            <th>Posuere</th> 
-            <th>Risus</th> 
-            <th>Ultricies</th> 
-            <th>Gravida</th> 
-            <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-            <td><img src="#" alt"image"></td> 
-            <td><img src="#" alt"image"></td> 
-            <td><img src="#" alt"image"><span class="likes">256</span></td> 
-            <td><img src="#" alt"image"><span class="fav">Sit</span></td> 
-            <td><img src="#" alt"image"><span class="comments">3</span></td> 
-            <td>
-                <span class="btnshare">
-                    <span class ="lblshare">share</span>
-                    <a href="#" class="fbico">
-                             <img src="#" alt="fb">
-                    </a>
-                    <a href="#" class="twico">
-                             <img src="#" alt="tw">
-                    </a> 
-                    <a href="#" class="t20ico">
-                             <img src="#" alt="t20">
-                    </a>
-                    <a href="#" class="mailico">
-                             <img src="#" alt="mail">
-                    </a>
+    <div id="A3" class="bg-gray">
+        <table class ="center">
+            <thead>
+                <tr>
+                    <th colspan="6">
+                        <span id="tablehead0number">5</span>
+                        <span id="tablehead0text">offers</span>
+                    </th>
+                    <th>Posuere</th>
+                    <th>Risus</th>
+                    <th>Ultricies</th>
+                    <th colspan="2">Gravida</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="./img/100x40.gif" alt="image"></td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="" data-target="">
+                        <span class="hidden"><strong>3-8</strong> tellus nulla vel elit nisi</span>
 
-                </span>
-            </td>
-            <td><p>$158.00</p></td> 
-            <td><p></p></td> 
-            <td><p>LECTUS</p></td> 
-            <td>$158.00</td> 
-            <td><a href="#" class"btntable">BUY</a></td>  
-            </tr>
-             <tr>
-            <td><img src="#" alt"image"></td> 
-            <td><img src="#" alt"image"></td> 
-            <td><img src="#" alt"image"><span class="likes">256</span></td> 
-            <td><img src="#" alt"image"><span class="fav">Nam</span></td> 
-            <td><img src="#" alt"image"><span class="comments">3</span></td> 
-            <td>
-                <span class="btnshare">
-                    <span class ="lblshare">share</span>
-                    <a href="#" class="fbico">
-                             <img src="#" alt="fb">
-                    </a>
-                    <a href="#" class="twico">
-                             <img src="#" alt="tw">
-                    </a> 
-                    <a href="#" class="t20ico">
-                             <img src="#" alt="t20">
-                    </a>
-                    <a href="#" class="mailico">
-                             <img src="#" alt="mail">
-                    </a>
+                    </td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image">
+                        <span class="txt-light-gray">256</span>
+                    </td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image">
+                        <span class="txt-light-gray">Sit</span>
+                    </td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image">
+                        <span class="txt-light-gray">3</span>
+                    </td>
+                    <td>
+                        <span class="btnshare">
+                            <span class ="lblshare">share</span>
+                            <span class="imgshare">
+                            <a href="#" class="fbico">
+                                <img src="./img/16x16.gif" alt="fb"></a>
+                            <a href="#" class="twico">
+                                <img src="./img/16x16.gif" alt="tw"></a>
+                            <a href="#" class="t20ico">
+                                <img src="./img/16x16.gif" alt="t20"></a>
+                            <a href="#" class="mailico">
+                                <img src="./img/16x16.gif" alt="mail"></a>
+                            </span>
+                        </span>
+                    </td>
+                    <td>
+                        <p>$158.00</p>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                    <td>
+                        <p>LECTUS</p>
+                    </td>
+                    <td><span class="price txt-red">$158.00</span></td>
+                    <td>
+                        <a href="#" class="btn btn-buy">BUY</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/100x40.gif" alt="image"></td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image"></td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image">
+                        <span class="likes">256</span>
+                    </td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image">
+                        <span class="fav">Nam</span>
+                    </td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image">
+                        <span class="comments">3</span>
+                    </td>
+                    <td>
+                        <span class="btnshare">
+                            <span class ="lblshare">share</span>
+                            <a href="#" class="fbico">
+                                <img src="./img/16x16.gif" alt="fb"></a>
+                            <a href="#" class="twico">
+                                <img src="./img/16x16.gif" alt="tw"></a>
+                            <a href="#" class="t20ico">
+                                <img src="./img/16x16.gif" alt="t20"></a>
+                            <a href="#" class="mailico">
+                                <img src="./img/16x16.gif" alt="mail"></a>
 
-                </span>
-            </td>
-            <td><p>$175.00</p></td> 
-            <td><p></p></td> 
-            <td><p>LECTUS</p></td> 
-            <td>$175.00</td> 
-            <td><a href="#" class"btntable">BUY</a></td>  
-            </tr>
-             <tr>
-            <td><img src="#" alt"image"></td> 
-            <td><img src="#" alt"image"></td> 
-            <td><img src="#" alt"image"><span class="likes">256</span></td> 
-            <td><img src="#" alt"image"><span class="fav">Nam</span></td> 
-            <td><img src="#" alt"image"><span class="comments">3</span></td> 
-            <td>
-                <span class="btnshare">
-                    <span class ="lblshare">share</span>
-                    <a href="#" class="fbico">
-                             <img src="#" alt="fb">
-                    </a>
-                    <a href="#" class="twico">
-                             <img src="#" alt="tw">
-                    </a> 
-                    <a href="#" class="t20ico">
-                             <img src="#" alt="t20">
-                    </a>
-                    <a href="#" class="mailico">
-                             <img src="#" alt="mail">
-                    </a>
+                        </span>
+                    </td>
+                    <td>
+                        <p>$175.00</p>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                    <td>
+                        <p>LECTUS</p>
+                    </td>
+                    <td>$175.00</td>
+                    <td>
+                        <a href="#" class="btntable">BUY</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/100x40.gif" alt="image"></td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image"></td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image">
+                        <span class="likes">256</span>
+                    </td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image">
+                        <span class="fav">Nam</span>
+                    </td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image">
+                        <span class="comments">3</span>
+                    </td>
+                    <td>
+                        <span class="btnshare">
+                            <span class ="lblshare">share</span>
+                            <a href="#" class="fbico">
+                                <img src="./img/16x16.gif" alt="fb"></a>
+                            <a href="#" class="twico">
+                                <img src="./img/16x16.gif" alt="tw"></a>
+                            <a href="#" class="t20ico">
+                                <img src="./img/16x16.gif" alt="t20"></a>
+                            <a href="#" class="mailico">
+                                <img src="./img/16x16.gif" alt="mail"></a>
 
-                </span>
-            </td>
-            <td><p>$179.00</p></td> 
-            <td><p>2%</p></td> 
-            <td><p>+$3.99</p></td> 
-            <td>$179.00</td> 
-            <td><a href="#" class"btntable">GO</a></td>  
-            </tr>
-             <tr>
-            <td><img src="#" alt"image"></td> 
-            <td><img src="#" alt"image"></td> 
-            <td><img src="#" alt"image"><span class="likes">256</span></td> 
-            <td><img src="#" alt"image"><span class="fav">Nam</span></td> 
-            <td><img src="#" alt"image"><span class="comments">3</span></td> 
-            <td>
-                <span class="btnshare">
-                    <span class ="lblshare">share</span>
-                    <a href="#" class="fbico">
-                             <img src="#" alt="fb">
-                    </a>
-                    <a href="#" class="twico">
-                             <img src="#" alt="tw">
-                    </a> 
-                    <a href="#" class="t20ico">
-                             <img src="#" alt="t20">
-                    </a>
-                    <a href="#" class="mailico">
-                             <img src="#" alt="mail">
-                    </a>
+                        </span>
+                    </td>
+                    <td>
+                        <p>$179.00</p>
+                    </td>
+                    <td>
+                        <p>2%</p>
+                    </td>
+                    <td>
+                        <p>+$3.99</p>
+                    </td>
+                    <td>$179.00</td>
+                    <td>
+                        <a href="#" class="btntable">GO</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/100x40.gif" alt="image"></td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image"></td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image">
+                        <span class="likes">256</span>
+                    </td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image">
+                        <span class="fav">Nam</span>
+                    </td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image">
+                        <span class="comments">3</span>
+                    </td>
+                    <td>
+                        <span class="btnshare">
+                            <span class ="lblshare">share</span>
+                            <a href="#" class="fbico">
+                                <img src="./img/16x16.gif" alt="fb"></a>
+                            <a href="#" class="twico">
+                                <img src="./img/16x16.gif" alt="tw"></a>
+                            <a href="#" class="t20ico">
+                                <img src="./img/16x16.gif" alt="t20"></a>
+                            <a href="#" class="mailico">
+                                <img src="./img/16x16.gif" alt="mail"></a>
 
-                </span>
-            </td>
-            <td><p>$180.00</p></td> 
-            <td><p></p>180%</td> 
-            <td><p>LECTUS</p></td> 
-            <td>$180.50</td> 
-            <td><a href="#" class"btntable">BUY</a></td>  
-            </tr>
-             <tr>
-            <td><img src="#" alt"image"></td> 
-            <td><img src="#" alt"image"></td> 
-            <td><img src="#" alt"image"><span class="likes">256</span></td> 
-            <td><img src="#" alt"image"><span class="fav">Nam</span></td> 
-            <td><img src="#" alt"image"><span class="comments">3</span></td> 
-            <td>
-                <span class="btnshare">
-                    <span class ="lblshare">share</span>
-                    <a href="#" class="fbico">
-                             <img src="#" alt="fb">
-                    </a>
-                    <a href="#" class="twico">
-                             <img src="#" alt="tw">
-                    </a> 
-                    <a href="#" class="t20ico">
-                             <img src="#" alt="t20">
-                    </a>
-                    <a href="#" class="mailico">
-                             <img src="#" alt="mail">
-                    </a>
+                        </span>
+                    </td>
+                    <td>
+                        <p>$180.00</p>
+                    </td>
+                    <td>
+                        <p></p>
+                        180%
+                    </td>
+                    <td>
+                        <p>LECTUS</p>
+                    </td>
+                    <td>$180.50</td>
+                    <td>
+                        <a href="#" class="btntable">BUY</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./img/100x40.gif" alt="image"></td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image"></td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image">
+                        <span class="likes">256</span>
+                    </td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image">
+                        <span class="fav">Nam</span>
+                    </td>
+                    <td>
+                        <img src="./img/32x32.gif" alt="image">
+                        <span class="comments">3</span>
+                    </td>
+                    <td>
+                        <span class="btnshare">
+                            <span class ="lblshare">share</span>
+                            <a href="#" class="fbico">
+                                <img src="./img/16x16" alt="fb"></a>
+                            <a href="#" class="twico">
+                                <img src="./img/16x16" alt="tw"></a>
+                            <a href="#" class="t20ico">
+                                <img src="./img/16x16" alt="t20"></a>
+                            <a href="#" class="mailico">
+                                <img src="./img/16x16" alt="mail"></a>
 
-                </span>
-            </td>
-            <td><p>$201.00</p></td> 
-            <td><p></p></td> 
-            <td><p>$201.00</p></td> 
-            <td>$201.00</td> 
-            <td><a href="#" class"btntable">BUY</a></td>  
-            </tr>
+                        </span>
+                    </td>
+                    <td>
+                        <p>$201.00</p>
+                    </td>
+                    <td>
+                        <p></p>
+                    </td>
+                    <td>
+                        <p>$201.00</p>
+                    </td>
+                    <td>$201.00</td>
+                    <td>
+                        <a href="#" class="btntable">BUY</a>
+                    </td>
+                </tr>
 
-        </tbody>
-    </table>
+            </tbody>
+        </table>
+    </div>
     <div id="A4" class ="center">
-        <div id="A4left">
-            <h3> Donec laoreet ornare venenatis</h3>
+        <div class="center"></div>
+        <div class="fleft col-50">
+            <h3>Donec laoreet ornare venenatis</h3>
             <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-                <li> Impedit, cum, vero, dolore, blanditiis deleniti non in animi ratione suscipit</li>
-                <li>dolorum expedita sequi maiores mollitia odio magnam quidem repudiandae quasi ullam!</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-                <li> Impedit, cum, vero, dolore, blanditiis deleniti non in animi ratione suscipit</li>
-                <li>dolorum expedita sequi maiores mollitia odio magnam quidem repudiandae quasi ullam!</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-                <li> Impedit, cum, vero, dolore, blanditiis deleniti non in animi ratione suscipit</li>
-                <li>dolorum expedita sequi maiores mollitia odio magnam quidem repudiandae quasi ullam!</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>
+                    Impedit, cum, vero, dolore, blanditiis deleniti non in animi ratione suscipit
+                </li>
+                <li>
+                    dolorum expedita sequi maiores mollitia odio magnam quidem repudiandae quasi ullam!
+                </li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>
+                    Impedit, cum, vero, dolore, blanditiis deleniti non in animi ratione suscipit
+                </li>
+                <li>
+                    dolorum expedita sequi maiores mollitia odio magnam quidem repudiandae quasi ullam!
+                </li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>
+                    Impedit, cum, vero, dolore, blanditiis deleniti non in animi ratione suscipit
+                </li>
+                <li>
+                    dolorum expedita sequi maiores mollitia odio magnam quidem repudiandae quasi ullam!
+                </li>
             </ul>
         </div>
 
-        <div id="A4right">
-           <h3> Phasellus commodo neque ac elit vehicula, a iaculis nisi facilisis.</h3> 
-           <ul>
-           <li><span class="A4righthead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </span><span class="A4rightbody">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </span></li>
-                <li><span class="A4righthead"> Impedit, cum, vero, dolore, blanditiis deleniti non in animi ratione suscipit</span><span class="A4rightbody">Impedit, cum, vero, dolore, blanditiis deleniti non in animi ratione suscipit </span></li>
-                <li><span class="A4righthead">dolorum expedita sequi maiores mollitia odio magnam quidem repudiandae quasi ullam!</span><span class="A4rightbody">dolorum expedita sequi maiores mollitia odio magnam quidem repudiandae quasi ullam! </span></li>
-                <li><span class="A4righthead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </span><span class="A4rightbody"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span></li>
-           </ul>
+        <div class="fleft col-50">
+            <h3>
+                Phasellus commodo neque ac elit vehicula, a iaculis nisi facilisis.
+            </h3>
+            <ul>
+                <li>
+                    <span class="fleft col-20 txt-blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                    <span class="fleft col-80">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                </li>
+                <li>
+                    <span class="A4righthead">
+                        Impedit, cum, vero, dolore, blanditiis deleniti non in animi ratione suscipit
+                    </span>
+                    <span class="A4rightbody">
+                        Impedit, cum, vero, dolore, blanditiis deleniti non in animi ratione suscipit
+                    </span>
+                </li>
+                <li>
+                    <span class="A4righthead">
+                        dolorum expedita sequi maiores mollitia odio magnam quidem repudiandae quasi ullam!
+                    </span>
+                    <span class="A4rightbody">
+                        dolorum expedita sequi maiores mollitia odio magnam quidem repudiandae quasi ullam!
+                    </span>
+                </li>
+                <li>
+                    <span class="A4righthead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                    <span class="A4rightbody">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                </li>
+            </ul>
         </div>
     </div>
     <div id="A5" class ="center">
-    <span> Quisquam.com is a registered trademark of quisquam.com. Inc. Class aptent tacili sociosqu ad litora torquent per conuibia nostra, per inceptos himenaeos. Phasellus ut auctor purus. Donec blandit porta nisi, et bibendum sapien </span><a href="#" id="footerlink">condimentum</a> nec.
-    <ul>
-    <li><a href="#">Quisquam2013 quisquam.com</a></li>
-    <li><a href="#">Terms &amp; Conditions</a></li>
-    <li><a href="#">Privacy Pilicy</a></li>
-    
+        <p>
+            Quisquam.com is a registered trademark of quisquam.com. Inc. Class aptent tacili sociosqu ad litora torquent per conuibia nostra, per inceptos himenaeos. Phasellus ut auctor purus. Donec blandit porta nisi, et bibendum sapien <a href="#" id="footerlink">condimentum</a> nec.
+        </p>
+        <ul>
+            <li>
+                <a href="#">Quisquam2013 quisquam.com</a>
+            </li>
+            <li>
+                <a href="#">Terms &amp; Conditions</a>
+            </li>
+            <li>
+                <a href="#">Privacy Pilicy</a>
+            </li>
 
-    </ul>
+        </ul>
     </div>
 </body>
 </html>
